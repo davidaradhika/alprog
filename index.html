@@ -1,0 +1,134 @@
+<!DOCTYPE html> <!-- Mendeklarasikan dokumen sebagai HTML5 -->
+<html lang="id"> 
+
+<head> <!-- Bagian kepala dokumen HTML -->
+    <meta charset="UTF-8"> <!-- Mengatur karakter agar teks dapat ditampilkan dengan benar -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mengatur tampilan website agar menyesuaikan ukuran layar -->
+
+    <title>Statistik Kabupaten Tangerang</title> <!-- Menentukan judul halaman yang tampil pada web -->
+
+    <!-- Menghubungkan Bootstrap CSS untuk mengatur tampilan website -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+          rel="stylesheet">
+
+    <style> /* Memulai bagian CSS untuk mengatur tampilan website */
+
+        body {
+            font-family: Arial, sans-serif; /* Mengatur jenis huruf website */
+            background-color: #f5f5f5; /* Mengatur warna backround */
+            color: #333; /* Mengatur warna teks */
+        }
+
+        .gambar {
+            display: block; /* Membuat gambar ditampilkan sebagai elemen blok */
+            width: auto; /* Mengatur lebar gambar secara otomatis*/
+            height: 200px; /* Menyesuaikan tinggi gambar */
+            margin: 15px auto; /* Mengatur jarak dan membuat gambar berada di tengah */
+        }
+
+        .judul {
+            text-align: center; /* Membuat teks pada bagian judul menjadi center */
+            margin-top: 30px; /* Mengatur jarak bagian atas sebesar 30 piksel */
+        }
+
+        .table thead th {
+            background-color: #9ad684; /* Mengatur warna backround */
+            text-align: center; /* Membuat teks kepala tabel menjadi center */
+        }
+
+        .table td {
+            text-align: center; /* Membuat isi setiap sel tabel menjadi center */
+        }
+
+        .table tbody tr:hover td {
+            background-color: #fefdfd; /* Mengubah warna sel saat kursor diarahkan ke baris tabel */
+        }
+
+    </style> <!-- Menutup bagian CSS -->
+</head> <!-- Menutup kepala dokumen HTML -->
+
+<body> <!-- Memulai bagian body website -->
+
+    <!-- Membuat wadah utama menggunakan Bootstrap agar tata letak rapi -->
+    <div class="container my-4">
+
+        <!-- Bagian judul website -->
+        <div class="judul">
+            <h1 class="fw-bold">Statistik Kabupaten Tangerang</h1> <!-- Membuat judul utama dengan teks tebal -->
+
+            <!-- Menampilkan gambar lambang Kabupaten Tangerang -->
+            <img src="tangerang.png"
+                 alt="Lambang Kabupaten Tangerang"
+                 class="gambar">
+
+            <!-- Menampilkan keterangan data statistik -->
+            <p class="text-secondary">
+                Laju Pertumbuhan Penduduk Menurut Kecamatan
+                di Kabupaten Tangerang Tahun 2024
+            </p> <!-- Membuat paragraf keterangan dengan warna teks sekunder Bootstrap -->
+        </div> <!-- Menutup bagian judul website -->
+
+        <!-- Membuat wadah tabel yang dapat digeser jika layar terlalu kecil -->
+        <div class="table-responsive">
+
+            <!-- Membuat tabel menggunakan class Bootstrap -->
+            <table class="table table-bordered table-hover align-middle bg-white">
+
+                <!-- Bagian kepala tabel -->
+                <thead>
+                    <tr> <!-- Membuat baris kepala tabel -->
+                        <th>No</th> <!-- Membuat kolom nomor -->
+                        <th>Kecamatan</th> <!-- Membuat kolom nama kecamatan -->
+                        <th>Laju Pertumbuhan (%)</th> <!-- Membuat kolom laju pertumbuhan penduduk -->
+                    </tr>
+                </thead> <!-- Menutup kepala tabel -->
+
+                <!-- Bagian isi tabel -->
+                <tbody>
+                    <tr><td>1</td><td>Cisoka</td><td>2,49</td></tr>
+                    <tr><td>2</td><td>Solear</td><td>3,08</td></tr>
+                    <tr><td>3</td><td>Tigaraksa</td><td>1,83</td></tr>
+                    <tr><td>4</td><td>Jambe</td><td>2,42</td></tr>
+                    <tr><td>5</td><td>Cikupa</td><td>1,05</td></tr>
+                    <tr><td>6</td><td>Panongan</td><td>2,20</td></tr>
+                    <tr><td>7</td><td>Curug</td><td>1,85</td></tr>
+                    <tr><td>8</td><td>Kelapa Dua</td><td>1,83</td></tr>
+                    <tr><td>9</td><td>Legok</td><td>2,11</td></tr>
+                    <tr><td>10</td><td>Pagedangan</td><td>3,17</td></tr>
+                    <tr><td>11</td><td>Cisauk</td><td>2,66</td></tr>
+                    <tr><td>12</td><td>Pasar Kemis</td><td>1,23</td></tr>
+                    <tr><td>13</td><td>Sindang Jaya</td><td>2,32</td></tr>
+                    <tr><td>14</td><td>Balaraja</td><td>1,65</td></tr>
+                    <tr><td>15</td><td>Jayanti</td><td>1,31</td></tr>
+                    <tr><td>16</td><td>Sukamulya</td><td>1,13</td></tr>
+                    <tr><td>17</td><td>Kresek</td><td>1,40</td></tr>
+                    <tr><td>18</td><td>Gunung Kaler</td><td>1,51</td></tr>
+                    <tr><td>19</td><td>Kronjo</td><td>1,29</td></tr>
+                    <tr><td>20</td><td>Mekar Baru</td><td>1,79</td></tr>
+                    <tr><td>21</td><td>Mauk</td><td>1,43</td></tr>
+                    <tr><td>22</td><td>Kemiri</td><td>2,01</td></tr>
+                    <tr><td>23</td><td>Sukadiri</td><td>1,85</td></tr>
+                    <tr><td>24</td><td>Rajeg</td><td>3,02</td></tr>
+                    <tr><td>25</td><td>Sepatan</td><td>2,05</td></tr>
+                    <tr><td>26</td><td>Sepatan Timur</td><td>2,11</td></tr>
+                    <tr><td>27</td><td>Pakuhaji</td><td>1,81</td></tr>
+                    <tr><td>28</td><td>Teluknaga</td><td>1,82</td></tr>
+                    <tr><td>29</td><td>Kosambi</td><td>1,89</td></tr>
+
+                    <!-- Menampilkan jumlah laju pertumbuhan Kabupaten Tangerang -->
+                    <tr class="table-secondary fw-bold">
+                        <td colspan="2">Kabupaten Tangerang</td> <!-- Menggabungkan dua kolom untuk nama kabupaten -->
+                        <td>1,93</td> <!-- Menampilkan angka laju pertumbuhan tingkat kabupaten -->
+                    </tr>
+                </tbody> <!-- Menutup bagian isi tabel -->
+
+            </table> <!-- Menutup tabel -->
+        </div> <!-- Menutup wadah tabel responsif -->
+
+    </div> <!-- Menutup wadah utama Bootstrap -->
+
+    <!-- Menghubungkan Bootstrap JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body> <!-- Menutup bagian isi website -->
+</html> <!-- Mengakhiri dokumen HTML -->
